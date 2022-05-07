@@ -1,0 +1,266 @@
+menu {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    width: 400px;
+  }
+  
+  li {
+    flex-grow: 1;
+  }
+  
+  button {
+    width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(179, 177, 177);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(90, 71, 71);
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold
+}
+
+li a:hover:not(.active) {
+    background-color: rgb(119, 113, 113);
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+@font-face {
+    font-family: ubuntu;
+    src: url("fuentes/ubuntu.ttf") format("truetype");
+}
+@font-face {
+    font-family: ubuntuw;
+    src: url("fuentes/ubuntuw.ttf") format("truetype");
+}
+h1,h2,h3,h4,h5{
+    font-family: ubuntu;
+    color: black;
+}
+h1 {
+    transform: translate(150px, 0px);
+    color: white;
+    position: absolute;
+    font-size: 50px;
+    display: inline;
+    letter-spacing: 0px;
+    margin-top: 10px;
+    
+}
+h2{
+    color: red;
+    font-size: 30px;
+}
+h3{
+    color:  rgb(250, 242, 242);
+    font-size: 20px;
+}
+ p {
+    font-family: ubuntuw;
+    color: rgb(27, 26, 26);
+ }
+
+ section{
+    font-family: ubuntu;
+    color: black;
+    font-size: 30px;
+ }
+
+ body{
+     margin: 0px;
+     text-align: center;
+     background-color: rgb(204, 206, 211);
+ }
+
+ #principal {
+
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    text-align: center;
+    background: rgb(167, 167, 170);
+   position: relative;
+ }
+
+ #bannerheader
+ {
+    width: 100%;
+    height: 100%;
+    background-color: darkgray;
+    position: absolute;
+ }
+ header{
+
+    display: table;
+    margin: 0%;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    background-color: darkgray;
+    overflow: hidden;   
+
+    border: 4px solid white;
+    border-radius: 10px 10  px 0px 0px;
+
+    box-shadow: 0px 0px 20px white;
+
+ }
+ footer{
+     display: table;
+     width: 100%;
+     height: 100px;
+     text-align: center;
+     background-color: rgb(114, 110, 110);
+     margin: 0;
+
+     border: 2px solid white;
+
+     box-shadow: 0px 0px 20px white;
+
+ }
+ #contenido{
+     width: 100%;
+     border: 2px solid white;
+     text-align: justify;
+     box-shadow: 0px 0px 20px white;
+     
+ }
+ article{
+     width: 100%;
+     margin: 10 px;
+     display: table;
+     height: 100%;
+     border: 1px;
+     border-radius: 0px 25px 0px 25px;
+    box-shadow: 3px 3px 10px black ;
+    padding: 10px 10px 10px 10px;
+    text-align: justify;
+    font-size: 20px;
+   
+
+ }
+ aside{
+     float: right;
+     width: 10%;
+     background-color: rgba(233, 225, 225, 0.671);
+     display: inline-table;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 0 25px 0 25px;
+    box-shadow: 3px 3px 10px black;}
+
+
+    aside ul{
+       
+       width: 100%;
+       height: 100%;
+       padding-left: 0%;
+       padding-right: 0%;
+       color: white;
+       float: left;
+       font-family:     ubuntu;
+       font-size: 12px;
+       }
+
+ aside ul li {
+       
+    width: 100%;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 0 5px 0 5px;
+    }
+
+    aside ul li a {
+       
+        width: 100%;
+        min-height: 30px;
+        text-decoration: none;
+        overflow: hidden;
+        }
+ #sobremi{
+     width: 100%;
+     height: 130px;
+     background-color: black;
+     color: white;
+     font-size: 20px;
+     text-align: justify;
+     overflow: hidden;
+     display: table;
+     margin: 5px 5px 0px 0px;
+  
+ }
+
+ #miphoto{
+     width: 100px;
+     height: 100px;
+     color: white;
+     font-size: 20px;
+     font-family: ubuntu;
+     text-align: left;
+     background-image: url ("../img/jorge_noreña.jpeg");
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     display: box;
+     border: 1px solid white;
+     border-radius: 0px 10px 0px 10px;
+     box-shadow: 0px 0px 10px white;
+     float: left;
+     margin: 10px;
+ }
+
+ #link{
+    float: right;
+    width: 30%;
+    background-color: white;
+    display: inline-table;
+ }
+
+ #logo{
+     width: 100px;
+     height: 100px;
+     display: inline;
+     position: relative;
+ }
+ time {
+    font-family: ubuntu;
+    color: black;
+    font-size: 20px;
+
+ }
+ #ejemplo{
+    color: white;
+    font-size: 20px;
+    font-family: ubuntu;
+    text-align: left;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: box;
+    border: 1px solid white;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 0px 0px 10px white;
+    /*float: left;*/
+
+}
+p.centrado {
+    text-align: center;
+  }
+ 
